@@ -1,5 +1,6 @@
 p{
   font-family: Georgia;
+  font-size: 3vw;
 }
 body{
   margin: 8px;
@@ -10,20 +11,26 @@ body{
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2%;
-  width: 40%;
+  max-width:45%;
+  height:auto;
    }
 .trophy{
   display: inline-block;
   float: left;
   margin-right:1%;
-  width: 30%;
+  margin-bottom: 3%;
+  width: 50%;
+}
+figcaption {
+  padding: 2px;
+  text-align: justify;
 }
 .president{
-  display: inline-block;
+  display: block;
   float: right;
   margin-left: 1%;
-  margin-right: 3%;
-  width: 65%;
+  margin-right: 1%;
+  width: 100%;
 }
 ul{
   margin-left: 32%;
@@ -32,14 +39,13 @@ ul{
   display:block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 95%;
 }
 .install
 {
-  width: 100%;
-  font-size:90%;
-  margin-top: 4%;
-  margin-left: 0.5%;
+   white-space: normal;
+  margin-top: 3%;
+  margin-left: 1%;
 }
 .valve{
   text-align: center;
@@ -78,11 +84,8 @@ footer{
 footer p{
   margin: 1%;
 }
-
 i.fa {
-  display: inline-block;
   border-radius: 60px;
-  box-shadow: 0px 0px 2px #888;
   padding: 0.5em 0.6em;
   color: #ec3030;
   background-color: white;
@@ -90,3 +93,30 @@ i.fa {
 svg{
   width: 30px;
 }
+@media screen and (min-width: 800px) {
+  p{
+    font-size: large;
+    float: none;
+  }
+  .trophy{
+  display: inline-block;
+  float: left;
+  margin-right:0%;
+  margin-bottom: 3%;
+  width: 32%;
+}
+  .president{
+  display: block;
+  float: right;
+  margin-left: 1%;
+  margin-right: 3%;
+  width: 62%;
+}
+.pumps{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+}
+
